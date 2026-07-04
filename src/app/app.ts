@@ -13,4 +13,13 @@ import { ProfileComponent } from "./profile/profile";
 })
 export class App {
   protected readonly title = signal('ANGULAR-19-TUT');
+
+  OnclickEvent() {
+    alert("Button is Clicked.");
+    this.OtherFuncton();
+  }
+
+  OtherFuncton() {
+    console.log("Other Function");
+  }
 }
