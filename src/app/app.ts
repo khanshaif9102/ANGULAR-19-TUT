@@ -5,11 +5,12 @@ import { Signup } from './signup/signup';
 import { ProfileComponent } from "./profile/profile";
 import { Counter } from './counter/counter';
 import { Events } from "./events/events";
+import { InputGetAndSet } from './input-get-and-set/input-get-and-set';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter, Events],
+  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter, Events, InputGetAndSet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
