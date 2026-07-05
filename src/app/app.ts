@@ -4,11 +4,12 @@ import { Login } from "./login/login";
 import { Signup } from './signup/signup';
 import { ProfileComponent } from "./profile/profile";
 import { Counter } from './counter/counter';
+import { Events } from "./events/events";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter],
+  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter, Events],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -23,4 +24,8 @@ export class App {
   // OtherFuncton() {
   //   console.log("Other Function");
   // }
+
+
+
+
 }
