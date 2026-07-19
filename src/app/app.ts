@@ -6,11 +6,12 @@ import { ProfileComponent } from "./profile/profile";
 import { Counter } from './counter/counter';
 import { Events } from "./events/events";
 import { InputGetAndSet } from './input-get-and-set/input-get-and-set';
+import { IfElse } from './if-else/if-else';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter, Events, InputGetAndSet],
+  imports: [RouterOutlet, Login, Signup, ProfileComponent, Counter, Events, InputGetAndSet, IfElse],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
